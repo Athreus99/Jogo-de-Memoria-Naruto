@@ -1,0 +1,78 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Importando a fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Aplicando Roboto como fonte padrão */
+}
+
+.background {
+  background-image: url('./assets/images/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-background {
+  background-image: url('./assets/images/Fundojogo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card-container {
+  margin-top: 100px; /* Espaço para o header fixo */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 120px; /* Aumenta o tamanho das cartas */
+  height: 160px; /* Aumenta o tamanho das cartas */
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.timer-font {
+  font-size: 2rem;
+  font-weight: bold;
+}
