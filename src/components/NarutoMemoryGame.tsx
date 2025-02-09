@@ -13,35 +13,35 @@ type GameState = 'login' | 'playing';
 const characters = [
   {
     name: 'Naruto',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'
+    image: 'images/Naruto.png'
   },
   {
     name: 'Sasuke',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png'
+    image: 'images/Sasuke.png'
   },
   {
     name: 'Sakura',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png'
+    image: 'images/Sakura.png'
   },
   {
     name: 'Kakashi',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png'
+    image: 'images/Kakashi.png'
   },
   {
     name: 'Hinata',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png'
+    image: 'images/Hinata.png'
   },
   {
     name: 'Rock Lee',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png'
+    image: 'images/RockLee.png'
   },
   {
     name: 'Gaara',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png'
+    image: 'images/Gaara.png'
   },
   {
     name: 'Itachi',
-    image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png'
+    image: 'images/Itachi.png'
   }
 ];
 
