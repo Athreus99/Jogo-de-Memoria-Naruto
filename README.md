@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+🍥 Naruto Memory Game
+Um jogo da memória baseado no anime Naruto, desenvolvido com React, TypeScript e Tailwind CSS.
+Show Image
+📋 Sobre o Projeto
+Este é um jogo da memória com temática do anime Naruto, onde os jogadores precisam encontrar os pares correspondentes de cartas com personagens, jutsus e símbolos do universo Naruto. O jogo foi desenvolvido utilizando tecnologias modernas como React 19, TypeScript e estilizado com Tailwind CSS.
+🚀 Tecnologias Utilizadas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React 19
+TypeScript
+Vite
+Tailwind CSS
+ESLint
 
-Currently, two official plugins are available:
+🎮 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cartas com personagens e elementos do universo Naruto
+Sistema de pontuação
+Contador de movimentos
+Timer de jogo
+Diferentes níveis de dificuldade
+Design responsivo para jogar em dispositivos móveis e desktop
 
-## Expanding the ESLint configuration
+🛠️ Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Node.js (versão 18.x ou superior)
+npm ou yarn
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+📄 Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE.md para mais detalhes.
+👨‍💻 Autor
+  Matheus Gouvea
+🙏 Agradecimentos
+
+Masashi Kishimoto, criador de Naruto
+Todos os fãs de Naruto que jogarem este jogo
+
+
+Feito com 💖 e Chakra
